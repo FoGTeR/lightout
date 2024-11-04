@@ -26,7 +26,7 @@
       <div v-if="errorMessage" class="error-message">{{ errorMessage }}</div>
 
       <div class="schedule">
-        <p v-if="group.length">Група: {{ group }}</p>
+        <p v-if="group">Група: {{ group }}</p>
 
         <table>
           <thead>

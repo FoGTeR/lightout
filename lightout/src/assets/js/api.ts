@@ -5,17 +5,17 @@ import { ApiService } from "./ImportApiService";
 
 export const apiService = new ScheduleApiService(
   axios.create({
-    baseURL: "http://132.226.207.145:37504",
+    baseURL: "http://161.97.155.200:37504",
   })
 );
 export const apiServiceFilter = new ScheduleFilterApiService(
   axios.create({
-    baseURL: "http://132.226.207.145:37504",
+    baseURL: "http://161.97.155.200:37504",
   })
 );
 
 export const apiServiceImport = new ApiService(
   axios.create({
-    baseURL: "http://132.226.207.145:37504",
+    baseURL: "http://161.97.155.200:37504",
   })
 );
